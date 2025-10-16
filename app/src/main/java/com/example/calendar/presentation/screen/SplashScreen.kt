@@ -123,7 +123,7 @@ fun SplashScreen(
 
             Spacer(modifier = Modifier.height(40.dp))
             
-            // Girl image with slide icon overlaid - fills remaining space in column
+            // Girl image - takes full width and height
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -131,12 +131,13 @@ fun SplashScreen(
                     .alpha(alpha)
                     .offset(y = slideOffset.dp)
             ) {
-                // Girl image - takes full width
+                // Girl image - covers full area
                 Image(
                     painter = painterResource(id = R.drawable.ic_splash),
                     contentDescription = "Organize your day illustration",
-                    modifier = Modifier.fillMaxWidth(),
-                    contentScale = ContentScale.FillWidth,
+                    modifier = Modifier
+                        .fillMaxSize(),
+                    contentScale = ContentScale.FillBounds, // Covers entire area
                     alignment = Alignment.TopCenter
                 )
 
@@ -147,7 +148,7 @@ fun SplashScreen(
                     modifier = Modifier
                         .size(80.dp)
                         .align(Alignment.BottomCenter)
-                        .padding(bottom = 100.dp),
+                        .padding(bottom = 40.dp),
                     contentScale = ContentScale.Fit
                 )
             }
