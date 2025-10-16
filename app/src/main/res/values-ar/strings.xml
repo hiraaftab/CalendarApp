@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">التقويم</string>
+    <string name="app_name_display">Calender.io</string>
+    
+    <!-- Splash Screen -->
+    <string name="splash_subtitle">حان الوقت لـ\nتنظيم يومك!</string>
+    
+    <!-- Navigation -->
+    <string name="nav_calendar">التقويم</string>
+    <string name="nav_clock">الساعة</string>
+    <string name="nav_notification">الإشعارات</string>
+    <string name="nav_profile">الملف الشخصي</string>
+    
+    <!-- Calendar -->
+    <string name="no_events">لا توجد أحداث لهذا اليوم</string>
+    
+    <!-- Create Event -->
+    <string name="create_event">إنشاء حدث</string>
+    <string name="add_new_event">إضافة حدث جديد</string>
+    <string name="event_title">اسم الحدث*</string>
+    <string name="event_description">اكتب الملاحظة هنا…</string>
+    <string name="date_label">التاريخ</string>
+    <string name="start_time">وقت البدء</string>
+    <string name="end_time">وقت الانتهاء</string>
+    <string name="event_color">لون الحدث</string>
+    <string name="select_time">اختر الوقت</string>
+    <string name="ok">موافق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="reminds_me">ذكرني</string>
+    <string name="select_category">اختر الفئة</string>
+    <string name="brainstorm">عصف ذهني</string>
+    <string name="design">تصميم</string>
+    <string name="workout">تمرين</string>
+    <string name="add_new">+ إضافة جديد</string>
+    
+    <!-- Locale Switcher -->
+    <string name="switch_language">تبديل اللغة</string>
+    <string name="english">English</string>
+    <string name="arabic">العربية</string>
+</resources>
+

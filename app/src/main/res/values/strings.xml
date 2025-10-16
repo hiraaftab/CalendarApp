@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Calendar</string>
+    <string name="app_name_display">Calender.io</string>
+    
+    <!-- Splash Screen -->
+    <string name="splash_subtitle">It\'s Time to\nOrganize your Day!</string>
+    
+    <!-- Navigation -->
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_clock">Clock</string>
+    <string name="nav_notification">Notifications</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- Calendar -->
+    <string name="no_events">No events for this day</string>
+    
+    <!-- Create Event -->
+    <string name="create_event">Create Event</string>
+    <string name="add_new_event">Add New Event</string>
+    <string name="event_title">Event name*</string>
+    <string name="event_description">Type the note here…</string>
+    <string name="date_label">Date</string>
+    <string name="start_time">Start time</string>
+    <string name="end_time">End time</string>
+    <string name="event_color">Event Color</string>
+    <string name="select_time">Select Time</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="reminds_me">Reminds me</string>
+    <string name="select_category">Select Category</string>
+    <string name="brainstorm">Brainstorm</string>
+    <string name="design">Design</string>
+    <string name="workout">Workout</string>
+    <string name="add_new">+ Add new</string>
+    
+    <!-- Locale Switcher -->
+    <string name="switch_language">Switch Language</string>
+    <string name="english">English</string>
+    <string name="arabic">العربية</string>
+</resources>
